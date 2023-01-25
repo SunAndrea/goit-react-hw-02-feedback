@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SunAndrea/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css",
+    "main.js": "/SunAndrea/goit-react-hw-02-feedback.git/static/js/main.b7e29dcf.js",
+    "index.html": "/SunAndrea/goit-react-hw-02-feedback.git/index.html",
+    "main.7acaea2f.css.map": "/SunAndrea/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css.map",
+    "main.b7e29dcf.js.map": "/SunAndrea/goit-react-hw-02-feedback.git/static/js/main.b7e29dcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.b7e29dcf.js"
+  ]
+}
