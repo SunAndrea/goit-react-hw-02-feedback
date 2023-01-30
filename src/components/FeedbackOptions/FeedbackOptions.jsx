@@ -1,11 +1,19 @@
-export const FeedbackOptions = () => {
+import PropTypes from 'prop-types';
+
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
-      <button type="button">Good</button>
-      <button type="button">Neutral</button>
-      <button type="button">Bad</button>
+      {options.map(option => (
+        <button key={Math.random()} type="button" onClick={onLeaveFeedback}>
+          {option}
+        </button>
+      ))}
     </div>
   );
+};
+FeedbackOptions.propTypes = {
+  options: PropTypes.array.isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
 };
 
 export default FeedbackOptions;
